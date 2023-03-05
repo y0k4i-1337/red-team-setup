@@ -28,7 +28,7 @@ brew install --cask alacritty
 brew install awscli
 brew install --cask cryptomator
 brew install fff
-brew install --cask flameshot
+brew install --cask shottr
 brew install ipcalc
 brew install jq
 brew install --cask obsidian
