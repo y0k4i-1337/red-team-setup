@@ -15,7 +15,16 @@ brew install --cask tor-browser
 # Install developer tools
 brew install --cask android-platform-tools
 brew install asdf
+brew install golang
+brew install goreleaser
+brew install neo4j
+brew install node
+brew install --cask postman
+brew install rust
+brew install rustfmt
+brew install rust-analyzer
 brew install --cask visual-studio-code
+brew install yarn
 
 # Install container tools
 brew install docker
@@ -26,15 +35,27 @@ ln -sfn /opt/homebrew/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugin
 # Install utilities
 brew install --cask alacritty
 brew install awscli
+brew install --cask commander-one
 brew install --cask cryptomator
 brew install fff
-brew install --cask shottr
+brew install git-extras
+brew install htop
+brew install imagemagick
 brew install ipcalc
 brew install jq
+brew install --cask karabiner-elements
 brew install --cask obsidian
 brew install rename
+brew install --cask shottr
+brew install speedtest-cli
 brew install swaks
+brew install --cask temurin
 brew install tmux
+brew install tree
+brew install wget
+
+# Install collaboration tools
+brew install --cask slack
 
 #########################
 #     HACKING TOOLS     #
@@ -84,3 +105,20 @@ brew install theharvester
 # Install exploitation frameworks
 sudo softwareupdate --install-rosett && brew install --cask metasploit
 
+# Install forensics tools
+brew install binwalk
+brew install exiftool
+brew install foremost
+
+# Install reverse engineering tools
+brew install --cask ghidra
+brew install radare2
+
+# Install Active Directory exploitation tools
+brew install --cask bloodhound
+xattr -d com.apple.quarantine /Applications/BloodHound.app
+
+# Install android/apk tools
+brew install apktool
+brew install dex2jar
+brew install jadx
